@@ -1,0 +1,54 @@
+body {
+    font-family: 'Merriweather', serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+.header {
+    text-align: center;
+    padding-top: 30px;
+    background-color: #d2dae2;
+    border-bottom: 1px solid #808e9b;
+    text-transform: uppercase;
+}
+
+
+
+#root {
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#root label {
+    padding-right: 20px;
+
+}
+
+.users {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+
+}
+
+.user {
+   display: flex;
+   justify-content: space-around;
+   padding: 20px;
+   height: 100px;
+   width: 200px;
+   
+}
+.user img {
+    border-radius: 50%;
+}
+
+.user a {
+    display: flex;
+    align-self: center;
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
